@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Students</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Add student -->
+      <div class="add-section">
+        <label>Name:</label>
+        <input type="text" id="nameInput" />
+        <button>Add Name</button>
+      </div>
+
+      <!-- Search -->
+      <div class="search-section">
+        <input type="text" id="searchInput" placeholder="search by name" />
+        <button>Search</button>
+      </div>
+
+      <!-- Students table -->
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Date Added</th>
+            <th>Delete</th>
+            <th>Edit</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Ayoub</td>
+            <td>26/08/2026</td>
+            <td><button class="delete">Delete</button></td>
+            <td><button class="edit">Edit</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>
